@@ -1,0 +1,112 @@
+h1 {
+    top: 40;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    background-color: #F3DEBA;
+}
+
+#resultBox {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    gap: 50px;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 120px;
+}
+
+#resultComp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#resultTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #675D50;
+    font-size: 40px;
+}
+
+#searchComp {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 1500px;
+    gap: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    padding-bottom: 25px;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    background-color: #F3DEBA;
+}
+
+#searchInput {
+    width: 600px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchButton {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ABC4AA;
+    
+}
+
+#searchButton:hover {
+    cursor: pointer;
+    background-color: #675D50;
+}
+
+#home {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #A9907E;
+}
+
+#home:hover {
+    color: #675D50;
+}
+
+body {
+    background-color: #F3DEBA;
+
+}
+
+.resultLink {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.linkBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.linkTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/* .linkText {
+
+} */

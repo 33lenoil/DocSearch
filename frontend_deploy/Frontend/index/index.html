@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="index">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <title>DocSearch</title>
+    <style>
+        #searchComp {
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+            width: 1500px;
+            gap: 10px;
+            margin-top: 20px;
+            flex-grow: 0;
+            flex-shrink: 0;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            margin-top: 200px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            color: #675D50;
+        }
+
+        #searchInput {
+            width: 1000px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #searchButton {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ABC4AA;
+        }
+
+        #searchButton:hover {
+            cursor: pointer;
+            background-color: #675D50;
+        }
+
+        body {
+            background-color: #F3DEBA;
+        }
+    </style>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>DocSearch</h1>
+    <div id="searchComp">
+        <input type="text" id="searchInput" name="toSearch">
+        <button type="button" id="searchButton" onclick="handleSearch()">Search</button>
+    </div>
+</body>
+
+</html>
